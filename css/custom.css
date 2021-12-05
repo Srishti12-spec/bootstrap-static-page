@@ -1,0 +1,96 @@
+@import url(omnes-pro.css);
+@import url(http://fonts.googleapis.com/css?family=Coda);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600);
+
+/*==============================================
+                            Global
+================================================*/
+
+* {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+#wrapper
+{
+    background: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#overlay-1
+{
+    background-color: rgba(40, 40, 40, 0.6);
+    position: relative;
+}
+
+.starting-text
+{
+    padding: 177px 0px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    letter-spacing: 2px;
+}
+.rene {
+    font-size: 120px;
+    color: white;
+    font-family: "omnes-pro", "Helvetica", sans-serif;
+    font-weight: 300;
+    margin-top: 75px;
+}
+
+.starting-text h2 {
+    font-family: "omnes-pro", "Helvetica", sans-serif;
+    color: #fff;
+}
+
+.bottom 
+{
+    width: 100%;
+    position: absolute;
+    bottom: 2%;
+}
+.bottom a
+{
+    color: rgba(192, 192, 192, 0.5);
+}
+h5 
+{
+    padding-top: 22px;
+    font-size: 18px;
+}
+
+/*==============================================
+                            Footer
+================================================*/
+.main-footer
+{
+    background-color: rgba(26, 26, 26, 1);
+    padding: 20px 0px;
+}
+.logo h1
+{
+    color: #F2F2F2;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+.copyright
+{
+    margin-top: 10px; 
+    font-size: 16px;
+    color: #f3f3f3;
+}
+.copyright a
+{
+    color: #FFFFFF;
+}
+.theme
+{
+    font-family: "Coda";
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* padding-left: 5px; */
+}
